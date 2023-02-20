@@ -1,0 +1,18 @@
+.hr_line{
+    width: 100%;
+    display: block;
+    margin: auto;
+    }
+    .bg_color{
+        background-color: #b093df;
+        box-shadow: 0 0 10px #b093df;
+        border-radius: 1rem;
+    }
+    .without_bg{
+        background-color: rgba(23, 23, 24, 0.089);
+        border-radius: 1rem;
+        border-top: 3px;
+        border-style: solid;
+        border-color: #b093df;
+        box-shadow: 0 0 10px #b093df;   
+    }

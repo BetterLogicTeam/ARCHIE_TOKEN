@@ -1,0 +1,10 @@
+.hr_line{
+width: 100%;
+display: block;
+margin: auto;
+}
+.bg_color{
+    background-color: #b093df;
+    box-shadow: 0 0 10px #b093df;
+    border-radius: 1rem;
+}
