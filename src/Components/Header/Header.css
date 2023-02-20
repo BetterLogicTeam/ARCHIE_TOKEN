@@ -1,0 +1,21 @@
+.header_logo{
+    width: 150px !important;
+}
+
+.header_links{
+    margin: 0px 10px;
+    /* padding: 5px 10px; */
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.header_links:hover{
+        color: #FA001F !important;
+}
+
+.main_bg_nav{
+    background-color: black !important;
+    padding: 25px 10px;
+}

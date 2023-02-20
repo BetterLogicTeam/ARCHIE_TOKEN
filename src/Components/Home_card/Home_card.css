@@ -1,0 +1,18 @@
+.main_card_bg{
+    background: linear-gradient(63deg, #f16172 0%, #fa001d9a 52%, rgba(35, 34, 36, 0.452) 100%);
+    padding: 2rem;
+    /* border-radius: 1rem; */
+    /* border-top: 3px; */
+    height: auto !important;
+    /* border-style: solid; */
+    /* border-color: #FA001F; */
+    box-shadow: 0 0 10px #e9919b;
+}
+
+
+.card_heading{
+    text-align: center !important;
+    color: #fff !important;
+    padding-bottom: 0.5rem !important;
+    font-size: 2rem ;
+}

@@ -1,13 +1,19 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import Header from './Components/Header/Header'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Graph_part from './Components/Graph_part/Graph_part';
+import Home_card from './Components/Home_card/Home_card';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-<h1>this is home page</h1>
+<Header/>
+<Graph_part/>
+{/* <Home_card/> */}
     </div>
   )
 }
