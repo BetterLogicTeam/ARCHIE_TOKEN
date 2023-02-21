@@ -1,0 +1,105 @@
+.sldd{
+    display: flex;
+    justify-content: center;
+    background-image: url(/src/Components/Assests/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right;
+    background-position-x: right;
+    background-position-y: center; */
+    /* padding: 14rem 0px; */
+    height: 100vh;
+}
+.sldd_2{
+    display: flex;
+    justify-content: center;
+    background-image: url(/src/Components/Assests/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right;
+    background-position-x: right;
+    background-position-y: center; */
+    /* padding: 13rem 0px; */
+    height: 100vh;
+}
+
+.sldd_3{
+    display: flex;
+    justify-content: center;
+    background-image: url(/src/Components/Assests/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right;
+    background-position-x: right;
+    background-position-y: center; */
+    /* padding: 10rem 0px; */
+    height: 100vh;
+}
+
+.heading_1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.part{
+    font-weight: 200;
+}
+
+.heading_2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.soon_buton{
+    background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%);
+    border-top: 3px solid #fc6475;
+    box-shadow: 0 0 10px #e9919b;
+    width: 250px;
+    color: white;
+    font-weight: 500;
+}
+.arrow{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: white !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    color: white !important;
+}
+
+@media only screen and (max-width:600px){
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        display: none;
+    }
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        display: none;
+    }
+    .sldd{
+        height: 100vh;
+    }
+    .heading_1{
+        font-size: 3rem;
+    }
+
+    .sldd_2{
+        height: 100vh;
+    }
+    .sldd_3{
+        height: 100vh;
+    }
+
+    .heading_2{
+        font-size: 3rem;
+    }
+
+    .button_group_layer{
+        display: flex;
+        flex-direction: column;
+    }
+}
