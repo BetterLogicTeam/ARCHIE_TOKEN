@@ -5,6 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import {FaDiscord } from "react-icons/fa"
 import {RiMusicFill  } from "react-icons/ri"
 import {BsFacebook, BsTelegram } from "react-icons/bs"
+import { Link } from "react-router-dom";
 
 export default function Main_footer() {
   return (
@@ -70,7 +71,7 @@ export default function Main_footer() {
             <div className="d-flex align-items-center py-2 ">
               <div className="message text-white quick_links_footer">
                 <IoIosArrowForward />
-              <span className=" ms-2 ">Contact Us</span>
+              <Link to='/contact_us' className="quick_links_footer text-decoration-none"> <span className=" ms-2 ">Contact Us</span></Link>
               </div>
             </div>
           </div>
