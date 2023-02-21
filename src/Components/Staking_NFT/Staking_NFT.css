@@ -1,0 +1,12 @@
+.bg_nft{
+    background-color: black;
+}
+.bt_css{
+    border-radius: 20px;
+     background-color:#FA001F ;
+}
+.bt_css:hover{
+    background: linear-gradient(90deg, #fc6475 0%, #FA001F 100%);
+    background-color: #a39da0;
+    border-color: #c7bef3;
+}

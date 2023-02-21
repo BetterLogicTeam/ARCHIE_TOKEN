@@ -1,0 +1,44 @@
+
+.btn_from{
+    font-weight: 500;
+    transition: .5s;
+    color: #000535;
+    background: linear-gradient(90deg, #fc6475 0%, #FA001F 100%);
+    background-color: #a39da0;
+    border-color: #c7bef3;    
+    border-radius: 20px;  
+}
+.Contact_bg{
+    background-image: linear-gradient(to bottom, #000000, #FA001F);
+}
+.icon_bg{
+    background-color: black;
+    padding-top: 100px !important;
+}
+.i-con{
+    font-size: 45px;
+    color: white;
+}
+.form_border{
+    border-radius: 1rem;
+    border-top: 3px;
+    border-style: solid;
+    border-color: #FA001F;
+    box-shadow: 0 0 10px #e9919b;
+}
+
+.contact_input{
+    padding: 1rem 0.75rem;
+    background-color: transparent !important;
+    background-clip: padding-box;
+    border: 1px solid #6C7293;
+    appearance: none;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.mn{
+    width: 100%;
+}
+.main_color{
+    background-color: #000000 !important;
+}

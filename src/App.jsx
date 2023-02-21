@@ -1,8 +1,13 @@
 import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import KittyMain from './Components/KittyMain/KittyMain';
+import Staking_NFT from './Components/Staking_NFT/Staking_NFT';
+import Archive_staking from './Components/Archive_staking/Archive_staking';
+import Stacking_bg from './Components/Stacking_bg/Stacking_bg';
+import Archive_NFT from './Components/Archive_NFT/Archive_NFT';
+import Contact from './Components/Contact/Contact';
+import Contact_form from './Components/Contact_form/Contact_form';
 
 
 function App() {
@@ -11,7 +16,16 @@ function App() {
   return (
     <div className="App">
 
-<KittyMain/>
+<Contact />
+<Contact_form />
+
+
+<Archive_staking /> 
+<Archive_NFT /> 
+
+ <Stacking_bg />
+<Staking_NFT /> 
+ <KittyMain/>
 
     </div>
   )
