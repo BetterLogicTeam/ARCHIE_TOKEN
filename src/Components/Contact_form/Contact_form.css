@@ -1,0 +1,57 @@
+.main_contact_bg{
+    background-color: black;
+    padding: 20px 0px !important;
+}
+.box_contact{
+    background-color: rgba(23, 23, 24, 0.089);
+    border-radius: 1rem;
+    border-top: 3px;
+    border-style: solid;
+    border-color: #FA001F;
+    box-shadow: 0 0 10px #e9919b;
+}
+
+.contact_form_main{
+    background-image: linear-gradient(to bottom, #000000, #FA001F);
+}
+.contact_input{
+    display: block;
+    width: 100%;
+    padding: 1rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6C7293;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #6C7293;
+    appearance: none;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background-color: transparent !important;
+}
+
+
+.send_message_btn{
+    text-transform: uppercase;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 13px 36px;
+    /* background: -webkit-gradient(linear, left top, right top, from(#FA001F), to(#fc6475)); */
+    background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%);
+    color: #ffffff;
+    width: 100%;
+}
+
+.send_message_btn:hover{
+    background: linear-gradient(90deg, #fc6475 0%, #FA001F 100%);
+    background-color: #a39da0;
+    border-color: #c7bef3;
+    color: #000535;
+}
+
+.coant_icon{
+    font-size: 32px !important;
+}
