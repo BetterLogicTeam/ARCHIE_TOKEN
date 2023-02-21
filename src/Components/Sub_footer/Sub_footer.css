@@ -1,0 +1,10 @@
+.sub_main_footer{
+    background-color: black;
+    padding:20px 10px !important ;
+}
+
+.archie_footer_link{
+    border-bottom: 1px solid #6C7293 !important;
+    color: white !important;
+    margin: 0px 6px ;
+}

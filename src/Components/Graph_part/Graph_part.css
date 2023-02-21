@@ -81,4 +81,14 @@ letter-spacing: 2px;
     .responsive_width{
         width: 250px !important;
     }
+
+
+    .responsive_text{
+        font-size: 33px !important;
+    }
+
+    .cat_text_heading{
+        font-size: 24px !important;
+        text-align: justify;
+    }
 } 

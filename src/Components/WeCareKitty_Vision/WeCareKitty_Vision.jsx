@@ -7,7 +7,7 @@ function WeCareKitty_Vision() {
             <div className="container mt-4 text-start">
                 <div className="row">
 
-                    <div className="col-lg-4 col-sm-12 without_bg">
+                    <div className="col-lg-4  mt-4 mt-md-0 col-sm-12 without_bg">
 
                         <h3 className='text-center my-2'> The Vision</h3>
                         <div className='my-3 hr_line'>
@@ -22,7 +22,7 @@ function WeCareKitty_Vision() {
 
                     </div>
 
-                    <div className="col-lg-4 col-md-12 bg_color">
+                    <div className="col-lg-4 mt-4 mt-md-0  col-md-12 bg_color">
 
                         <h3 className='text-center  my-2 text-white'> Inspiring Role Model</h3>
                         <div className='my-3 hr_line'>
@@ -37,7 +37,7 @@ function WeCareKitty_Vision() {
 
                     </div>
 
-                    <div className="col-lg-4 col-md-12 without_bg">
+                    <div className="col-lg-4  mt-4 mt-md-0 col-md-12 without_bg">
 
                         <h3 className='text-center  my-2'> Animal Rescue & Shelter</h3>
                         <div className='my-3 hr_line'>
@@ -52,7 +52,7 @@ function WeCareKitty_Vision() {
                 </div>
                 <div className="row my-4">
 
-                    <div className="col-lg-4 col-md-12 bg_color">
+                    <div className="col-lg-4 col-md-12 mt-4 mt-md-0 bg_color">
 
                         <h3 className='text-center my-2 text-white'> Stay with children who are uniquely gifted    </h3>
                         <div className='my-3 hr_line'>
@@ -66,7 +66,7 @@ function WeCareKitty_Vision() {
 
                     </div>
 
-                    <div className="col-lg-4 col-md-12 without_bg">
+                    <div className="col-lg-4 col-md-12 mt-4 mt-md-0 without_bg">
 
                         <h3 className='text-center  my-2'> Educating Girls, Empowering Women</h3>
                         <div className='my-3 hr_line'>
@@ -80,7 +80,7 @@ function WeCareKitty_Vision() {
 
                     </div>
 
-                    <div className="col-lg-4 col-md-12 bg_color">
+                    <div className="col-lg-4 col-md-12 mt-4 mt-md-0 bg_color">
 
                         <h3 className='text-center  my-2 text-white'> Looking forward: forging a sustainable CSR model </h3>
                         <div className='my-3 hr_line'>

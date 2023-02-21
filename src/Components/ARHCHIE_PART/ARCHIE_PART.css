@@ -1,0 +1,29 @@
+.main_archie_section{
+background-color: black !important;;
+padding: 20px 0px ;
+}
+.arhie_pic{
+    background-color: rgba(23, 23, 24, 0.089);
+    border-radius: 1rem;
+    border-top: 3px;
+    border-style: solid;
+    border-color: #FA001F;
+    box-shadow: 0 0 10px #e9919b;
+    display: flex;
+    justify-content: center;
+}
+
+
+.arhie_pic img{
+    width: 75%;
+
+}
+.latest_news_btn button {
+    background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%);
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 25%;
+}

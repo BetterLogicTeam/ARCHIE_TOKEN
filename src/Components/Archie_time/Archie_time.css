@@ -1,0 +1,48 @@
+.token_archie_main_bg{
+    background-color: black !important;
+    padding: 20px 0px !important;
+}
+.token_img{
+    background-color: rgba(23, 23, 24, 0.089);
+    border-radius: 1rem;
+    border: 3px;
+    border-style: solid;
+    border-color: #FA001F;
+    box-shadow: 0 0 10px #e9919b;
+}
+
+.sdsds{
+    border: none !important;
+    color:white;
+}
+
+.TOKEN_TABLE{
+    padding: 10px 2px;
+    font-weight: Bold;
+    /* background: -webkit-gradient(linear, left top, right top, from(#FA001F), to(#fc6475)); */
+    background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%);
+    color: #ffffff;
+}
+.token_img{
+    width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (min-width:0px) and (max-width:600px) {
+    .khafjah{
+        width: 300px ;
+        overflow-x: scroll;
+    }
+
+    /* .token_img{
+        width: 250px !important;
+    } */
+    .sdsds{
+        font-size: 15px !important;
+    }
+
+}

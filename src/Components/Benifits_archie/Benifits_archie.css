@@ -1,0 +1,23 @@
+.beinfits_main{
+    background-image: url(../Assests/bng.png);
+    padding: 20px 0px ;
+}
+
+.lastest_slidererr{
+    background-color: transparent !important;
+}
+
+.benifits_main_card{
+    background-color: rgba(0, 0, 0, 0.123);
+    border-radius: 1rem;
+    border-top: 8px;
+    border-style: solid;
+    height: 250px;
+    width: 100%;
+    border-color: #FA001F;
+    box-shadow: 0 0 10px #e9919b;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

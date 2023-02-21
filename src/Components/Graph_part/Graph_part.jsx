@@ -23,8 +23,8 @@ export default function Graph_part() {
           <div className="col-md-6 ">
             <h1 className="graphy_heading ">
               {" "}
-              <span className="clr me-0"> Coin</span> <span>Market </span>{" "}
-              <span className="clr">cap</span>
+              <span className="clr responsive_text me-0"> Coin</span> <span className="responsive_text">Market </span>{" "}
+              <span className="clr responsive_text">cap</span>
             </h1>
             <div className="chart_part trans_hvr">
               <img src={chart} className="w-100 chart_g" alt="" />
@@ -50,12 +50,12 @@ export default function Graph_part() {
               </div>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6 mt-4 mt-md-0">
               <div className="cat_text">
                 <h1 className="cat_text_heading">
                   The Story of <span className="clr"> Archie </span> is Real
                 </h1>
-                <p className="text-center text-white m-0">
+                <p className=" text-white text-justify m-0">
                   The story of Archie is real, the story of a cute, friendly,
                   and fiercely loyal kitty. Our vision for Archie is to generate
                   wealth for a decentralized community in a safe and secure
@@ -125,14 +125,14 @@ export default function Graph_part() {
               </div>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6 mt-4 mt-md-0">
                 <img src={invest} className='w-100' alt="" />
             </div>
           </div>
 
 
 
-          <div className="row mt-5  m-0 p-0 text-center ">
+          {/* <div className="row mt-5  m-0 p-0 text-center ">
             <h1 className="text-white"> Token <span className="clr "> omics?</span></h1>
 
             <p className="text-white">Tokenomics are very much needed for a project to succeed. When we were thinking about setting up a tokenomics for our new project, we have taken lots of things in consideration including the mistakes we have made on our original token.
@@ -176,7 +176,10 @@ We need to support our liquidity and of course ,our marketing needs. So, we deci
         </div>
 
 
-          </div>
+          </div> */}
+
+
+
         </div>
       </div>
       </div>
