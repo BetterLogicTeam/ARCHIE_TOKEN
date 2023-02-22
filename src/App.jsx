@@ -28,6 +28,7 @@ import NFT_staking_full from './Components/NFT_staking_full/NFT_staking_full';
 import Token_allocation_page from './Components/Token_allocation_page/Token_allocation_page';
 import Token_nomics_page from './Components/Token_nomics_page/Token_nomics_page';
 import Team_kyc from './Components/Team_kyc/Team_kyc'
+import White_paper from './Components/White_paper/White_paper';
 // import Archive_Scan_full from './Components/Archive_Scan_full/Archive_Scan_fulls';
 
 
@@ -40,6 +41,8 @@ function App() {
   <Header/>
   <Routes>
   <Route path="/" element={< Complete_home_page/>} />
+  <Route path="/white_paper" element={< White_paper/>} />
+  <Route path="/contact_us" element={< Contact_page_full/>} />
   <Route path="/contact_us" element={< Contact_page_full/>} />
   <Route path="/token_allocation" element={< Token_allocation_page/>} />
   <Route path="/nft_staking" element={< NFT_staking_full/>} />

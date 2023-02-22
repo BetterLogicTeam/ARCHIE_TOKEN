@@ -154,9 +154,9 @@ export default function Header() {
                 <NavDropdown.Item className="all_hvr" href="#action/3.4">
                   Audit Report
                 </NavDropdown.Item>
-                <NavDropdown.Item className="all_hvr" href="#action/3.5">
+              <Link to ='/white_paper' className="text-decoration-none">  <NavDropdown.Item className="all_hvr" href="#action/3.5">
                   White Paper
-                </NavDropdown.Item>
+                </NavDropdown.Item></Link>
                 <Link to='/Team_kyc' className=" text-decoration-none"><NavDropdown.Item className="all_hvr" href="#action/3.6">
                   Team / KYC
                 </NavDropdown.Item></Link>
