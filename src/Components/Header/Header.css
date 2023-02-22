@@ -7,7 +7,7 @@
 }
 
 .header_links{
-    margin: 0px 10px;
+    margin: 0px 10px !important;
     /* padding: 5px 10px; */
     color: white !important;
     font-family: 'Montserrat', sans-serif;
@@ -35,7 +35,12 @@
 
 .main_bg_nav{
     background-color: black !important;
-    padding: 25px 10px;
+    padding: 25px 0px !important;
+    width: 100% !important;
+    position: sticky !important;
+    top: 0 px !important;
+    z-index: 1030 !important;
+  
 }
 
 .info_icon{
@@ -64,7 +69,6 @@
 .info_list_2 .dropdown-menu {
     position: absolute !important;
     left: -50px !important;
+    /* z-index: 9999; */
 }
-dropdown-menu show {
-    z-index: 999 !important;
-}
+

@@ -134,17 +134,17 @@ export default function Header() {
                 title={<span className="header_links zind">STACKING</span>}
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item className="all_hvr" href="#action/3.1">
+              <Link to='/Archie_Staking' className="text-decoration-none">  <NavDropdown.Item className="all_hvr" href="#action/3.1">
                   Archie Staking
-                </NavDropdown.Item>
+                </NavDropdown.Item></Link>
                 <NavDropdown.Item className="all_hvr" href="#action/3.2">
                   NFT Staking
                 </NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="#features" className="header_links">
+          <Link to ='/WECAREKITTY' className="text-decoration-none">  <Nav.Link href="#features" className="header_links">
                 WECAREKITTY
-              </Nav.Link>
+              </Nav.Link></Link>  
 
               <NavDropdown
                 className="info_list"
