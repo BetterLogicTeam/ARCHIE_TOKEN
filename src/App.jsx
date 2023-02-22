@@ -8,13 +8,15 @@ import Home_card from './Components/Home_card/Home_card';
 import KittyMain from './Components/KittyMain/KittyMain';
 import Home_slider_1 from './Components/Home_slider_1/Home_slider_1';
 import Road_map from './Components/Road_map/Road_map';
+import Team_kyc from './Components/Team_kyc/Team_kyc';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <Road_map/>
+      <Team_kyc/>
+      {/* <Road_map/> */}
       {/* <Header /> */}
       {/* <Graph_part /> */}
       {/* <KittyMain /> */}
