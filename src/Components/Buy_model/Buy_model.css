@@ -1,0 +1,32 @@
+.cming{
+    font-weight: 500;
+    transition: .5s;
+    width: 100% !important;
+    text-transform: uppercase;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    padding: 13px 36px;
+    background: -webkit-gradient(linear, left top, right top, from(#FA001F), to(#fc6475));
+    background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%);
+    color: #ffffff;
+    font-weight: 700;
+}
+    
+
+     .bt_css{
+        border-radius: 0px;
+        background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%)
+    }
+    
+    .close{
+        border-radius: 20px;
+        background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%)
+    }
+    .close:hover{
+        background-color:#FA001F ;
+
+    }
+    .p{
+        color: #FA001F;
+    }
