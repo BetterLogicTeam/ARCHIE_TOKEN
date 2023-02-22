@@ -47,6 +47,15 @@
     color: white;
 }
 
+
+.button_arrrr{
+    background-color: transparent !important;
+    outline:  none !important;
+    border:none !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
 .info_list{
     background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%);
     color: white;

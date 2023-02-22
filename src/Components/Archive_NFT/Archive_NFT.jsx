@@ -5,7 +5,7 @@ function Staking_NFT() {
     <>
     <div className='text-center text-white  py-5 bg_nft'>
       <div>
-        <p>ARCHIVE</p>
+        <p>Archive stacking</p>
       </div>
       <div className='d-flex justify-content-center'>
         <button type="button" class="btn btn-lg text-white bt_css">COMING SOON </button>

@@ -132,7 +132,7 @@ export default function Graph_part() {
 
 
 
-          {/* <div className="row mt-5  m-0 p-0 text-center ">
+           <div className="row mt-5  m-0 p-0 text-center ">
             <h1 className="text-white"> Token <span className="clr "> omics?</span></h1>
 
             <p className="text-white">Tokenomics are very much needed for a project to succeed. When we were thinking about setting up a tokenomics for our new project, we have taken lots of things in consideration including the mistakes we have made on our original token.
@@ -176,7 +176,7 @@ We need to support our liquidity and of course ,our marketing needs. So, we deci
         </div>
 
 
-          </div> */}
+          </div> 
 
 
 

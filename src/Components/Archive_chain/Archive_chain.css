@@ -1,0 +1,33 @@
+.archi{
+    background-image: url(/src/Components/Assests/oo.png);
+    padding: 5% 0px ;    
+    }
+.img_set{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wid{
+    width: 20% !important;
+}
+.wide{
+    width: 35%;
+}
+
+
+.blackh{
+    background-color: black !important;
+}
+.prhaa{
+    margin-top: 100px !important;
+}
+.vist{
+    background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%);
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 16px;
+    box-sizing: border-box;
+}

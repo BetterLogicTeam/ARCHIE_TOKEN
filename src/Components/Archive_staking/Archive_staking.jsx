@@ -9,7 +9,7 @@ function Archive_staking() {
         <div className="col">
         <div>
   <h1 className='text-white text-center'><b>Archie</b> <span> Staking</span></h1>
-  hello
+  
 </div>
         </div>
     </div>

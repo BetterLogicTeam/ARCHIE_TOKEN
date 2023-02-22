@@ -1,0 +1,59 @@
+.cming{
+    font-weight: 500;
+    transition: .5s;
+    width: 100% !important;
+    text-transform: uppercase;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    padding: 13px 36px;
+    background: -webkit-gradient(linear, left top, right top, from(#FA001F), to(#fc6475));
+    background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%);
+    color: #ffffff;
+    font-weight: 700;
+}
+    
+
+     .bt_css{
+        border-radius: 0px;
+        background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%)
+    }
+    
+    .close{
+        border-radius: 20px;
+        background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%)
+    }
+    .close:hover{
+        background-color:#FA001F ;
+
+    }
+  
+
+
+
+    .modal_btn_here{
+        background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%) !important;
+        color: #ffffff;
+        font-size: 16px;
+        text-transform: uppercase;
+        /* display: inline-block; */
+        border: none;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+        width: 100%;
+    }
+
+    .modal-content {
+ background-color: black  !important;
+    }
+
+
+    .close_modal{
+        background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%) !important;
+        color: #ffffff;
+        font-size: 16px;
+        border-radius: 20px !important;
+        width: 20%;
+        outline: none !important;
+        border: none !important;
+    }

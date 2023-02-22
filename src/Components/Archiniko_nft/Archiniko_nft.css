@@ -1,0 +1,16 @@
+.archi{
+    background-image: url(/src/Components/Assests/oo.png);
+    padding: 5% 0px ;    
+    }
+.img_set{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wid{
+    width: 20% !important;
+}
+.wide{
+    width: 35%;
+}
