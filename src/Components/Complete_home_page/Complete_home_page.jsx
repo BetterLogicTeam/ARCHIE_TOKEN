@@ -9,6 +9,7 @@ import KittyMain from '../KittyMain/KittyMain';
 import Main_footer from '../Main_footer/Main_footer';
 import Sub_footer from '../Sub_footer/Sub_footer';
 import Home_slider_1 from '../Home_slider_1/Home_slider_1';
+import Road_map from '../Road_map/Road_map';
 
 
 export default function Complete_home_page() {
@@ -19,6 +20,7 @@ export default function Complete_home_page() {
          <Graph_part />
          <KittyMain />
          <ARCHIE_PART />
+         <Road_map/>
         <Benifits_archie />
         <Archie_time />
        <Archie_patner />

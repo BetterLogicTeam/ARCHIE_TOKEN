@@ -112,9 +112,10 @@ export default function Header() {
                 <NavDropdown.Item className="all_hvr" href="#action/3.2">
                   Tokenomics
                 </NavDropdown.Item>
-                <NavDropdown.Item className="all_hvr" href="#action/3.3">
+              <Link to ='/Road_map' className="text-decoration-none">  <NavDropdown.Item className="all_hvr" href="#action/3.3">
                   Road Map
                 </NavDropdown.Item>
+                </Link>
                 <NavDropdown.Item className="all_hvr" href="#action/3.4">
                   Audit Report
                 </NavDropdown.Item>

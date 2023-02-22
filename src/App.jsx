@@ -9,6 +9,7 @@ import Sub_footer from './Components/Sub_footer/Sub_footer';
 import Contact_page_full from './Components/Contact_page_full/Contact_page_full';
 import KittyMain from './Components/KittyMain/KittyMain';
 import Archive_staking from './Components/Archive_staking/Archive_staking';
+import Road_map from './Components/Road_map/Road_map';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
   <Route path="/contact_us" element={< Contact_page_full/>} />
   <Route path="/WECAREKITTY" element={< KittyMain/>} />
   <Route path="/Archie_Staking" element={< Archive_staking/>} />
+  <Route path="/Road_map" element={< Road_map/>} />
   </Routes>
   <Main_footer/>
   <Sub_footer/>
