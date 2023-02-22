@@ -3,7 +3,7 @@ import "./Main_footer.css";
 import { AiFillInstagram, AiFillMessage, AiFillRedditCircle, AiFillYoutube, AiOutlineTwitter } from "react-icons/ai";
 import { IoIosArrowForward } from "react-icons/io";
 import {FaDiscord } from "react-icons/fa"
-import {RiMusicFill  } from "react-icons/ri"
+import {FaTiktok  } from "react-icons/fa"
 import {BsFacebook, BsTelegram } from "react-icons/bs"
 import { Link } from "react-router-dom";
 
@@ -53,7 +53,7 @@ export default function Main_footer() {
             <div className="d-flex align-items-center py-2 ">
               <div className="message  quick_links_footer">
                 <IoIosArrowForward />
-              <span className=" ms-2 ">Team / KYC</span>
+                <Link to='/Team_kyc' className="quick_links_footer text-decoration-none"><span className=" ms-2 ">Team / KYC</span></Link>
               </div>
             </div>
             <div className="d-flex align-items-center py-2 ">
@@ -97,7 +97,7 @@ export default function Main_footer() {
                 <BsFacebook className='soical_footer_liks'/>
               </div>
               <div className="col-md-3 col-3">
-                <RiMusicFill className='soical_footer_liks'/>
+                <FaTiktok className='soical_footer_liks'/>
               </div>
               <div className="col-md-3 col-3">
                 <AiFillRedditCircle className='soical_footer_liks'/>

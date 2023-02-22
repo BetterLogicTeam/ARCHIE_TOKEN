@@ -27,6 +27,7 @@ import Archive_staking_full from './Components/Archive_staking_full/Archive_stak
 import NFT_staking_full from './Components/NFT_staking_full/NFT_staking_full';
 import Token_allocation_page from './Components/Token_allocation_page/Token_allocation_page';
 import Token_nomics_page from './Components/Token_nomics_page/Token_nomics_page';
+import Team_kyc from './Components/Team_kyc/Team_kyc'
 // import Archive_Scan_full from './Components/Archive_Scan_full/Archive_Scan_fulls';
 
 
@@ -59,6 +60,7 @@ function App() {
   <Route path="/archieve_e" element={< Archive_Ecommerce_full/>} />
   <Route path="/Archie_Reality" element={< Archive_Reality_Full/>} />
   <Route path="/tokenomics" element={< Token_nomics_page/>} />
+  <Route path="/Team_kyc" element={< Team_kyc/>} />
   </Routes>
   <Main_footer/>
   <Sub_footer/>

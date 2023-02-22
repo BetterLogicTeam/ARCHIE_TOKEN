@@ -142,7 +142,7 @@ export default function Header() {
            <Link to='/token_allocation' className="text-decoration-none">    <NavDropdown.Item className="all_hvr" href="#action/3.1">
                   Token Allocations
                 </NavDropdown.Item></Link> 
-              <Link to='/tokenomics'>  <NavDropdown.Item className="all_hvr" href="#action/3.2">
+              <Link to='/tokenomics' className="text-decoration-none">  <NavDropdown.Item className="all_hvr" href="#action/3.2">
                   Tokenomics
                 </NavDropdown.Item></Link>
                 <Link to="/Road_map" className="text-decoration-none">
@@ -157,9 +157,9 @@ export default function Header() {
                 <NavDropdown.Item className="all_hvr" href="#action/3.5">
                   White Paper
                 </NavDropdown.Item>
-                <NavDropdown.Item className="all_hvr" href="#action/3.6">
+                <Link to='/Team_kyc' className=" text-decoration-none"><NavDropdown.Item className="all_hvr" href="#action/3.6">
                   Team / KYC
-                </NavDropdown.Item>
+                </NavDropdown.Item></Link>
               </NavDropdown>
 
               <Nav.Link href="#features"  className="header_link_by_arch">
