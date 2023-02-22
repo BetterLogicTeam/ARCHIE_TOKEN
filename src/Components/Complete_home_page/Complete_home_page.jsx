@@ -18,11 +18,14 @@ export default function Complete_home_page() {
     
          <Home_slider_1 />
          <Graph_part />
-         <KittyMain />
-         <ARCHIE_PART />
-         <Road_map/>
         <Benifits_archie />
         <Archie_time />
+        <Road_map/>
+
+
+
+         <KittyMain />
+         <ARCHIE_PART />
        <Archie_patner />
      
        {/* <Contact /> */}

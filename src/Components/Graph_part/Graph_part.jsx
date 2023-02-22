@@ -146,7 +146,7 @@ We need to support our liquidity and of course ,our marketing needs. So, we deci
             <div className="col-md-4">
                 <Home_card main_heading='Liquidity' per_1='3%' per_2='4%' details='3% of every Buy & 4% Sell or Transfer transaction is converted into liquidity according to as shown. This is automatic and helps to create a stability.'/>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mt-4 mt-md-0">
                 <Home_card main_heading='Marketing' per_1='2%' per_2='7%' details='2% of every Buy & 7% of every Sell or Transfer transaction is converted into marketing wallet according to as shown. This will help us to carry out accomplish achieve smart marketing to get our project ready for coming months to the world.'/>
             </div>
         </div>
@@ -164,7 +164,7 @@ We need to support our liquidity and of course ,our marketing needs. So, we deci
             <div className="col-md-4">
                 <Home_card main_heading='Liquidity' per_1='3%' per_2='3%' details='3% of every Buy & 4% Sell or Transfer transaction is converted into liquidity according to as shown. This is automatic and helps to create a stability.'/>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4  mt-4 mt-md-0">
                 <Home_card main_heading='Marketing' per_1='2%' per_2='4%' details='2% of every Buy & 7% of every Sell or Transfer transaction is converted into marketing wallet according to as shown. This will help us to carry out accomplish achieve smart marketing to get our project ready for coming months to the world.'/>
             </div>
         </div>

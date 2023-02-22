@@ -6,9 +6,9 @@ import WeCareKitty from '../WeCareKitty/WeCareKitty';
 
 function KittyMain() {
   return (
-    <div>
+    <div className='py-5'>
 
-<WeCareKitty />
+{/* <WeCareKitty /> */}
 <WeCareKitty_Cat />     
 <WeCareKitty_Vision />
 <WeCareKitty_Sponsoring />

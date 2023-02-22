@@ -6,6 +6,11 @@ function WeCareKitty_Cat() {
   return (
     <>
     <div className="container mt-5">
+    <div className="row justify-content-center m-0">
+      <div className="col-md-10">
+        <h1 className='care_kitty'>WeCareKitty <span className='project'> Project </span></h1>
+      </div>
+    </div>
         <div className="row">
             <div className="col-md-6 cat_bg">
                 <img src={kitty} alt="" />

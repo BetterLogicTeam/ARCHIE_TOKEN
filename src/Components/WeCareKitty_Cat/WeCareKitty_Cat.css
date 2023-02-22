@@ -12,3 +12,16 @@
     align-items: center;
     /* color: red; */
 }
+
+
+.care_kitty{
+    font-size: 2rem;
+    text-align: center !important;
+    margin-bottom: 1.5rem;
+    font-weight: 100;
+}
+
+.project{
+    color: #7643CB;
+    font-weight: 700;
+}
