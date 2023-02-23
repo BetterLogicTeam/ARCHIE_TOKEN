@@ -37,38 +37,38 @@ function App() {
 
   return (
     <div className="App">
-<BrowserRouter>
-  <Header/>
-  <Routes>
-  <Route path="/" element={< Complete_home_page/>} />
-  <Route path="/white_paper" element={< White_paper/>} />
-  <Route path="/contact_us" element={< Contact_page_full/>} />
-  <Route path="/contact_us" element={< Contact_page_full/>} />
-  <Route path="/token_allocation" element={< Token_allocation_page/>} />
-  <Route path="/nft_staking" element={< NFT_staking_full/>} />
-  <Route path="/WECAREKITTY" element={< KittyMain/>} />
-  <Route path="/Archie_Staking" element={< Archive_staking_full/>} />
-  <Route path="/Road_map" element={< Road_map/>} />
-  <Route path="/Archie_Chain" element={< Archive_chain_Full/>} />
- <Route path="/Archie_Swap" element={< Archive_Swap_full/>} /> 
-  <Route path="/Archie_Scan" element={< Archive_Scan_full/>} />
-  <Route path="/ArcCoin" element={< Arc_coin_full/>} />
-  <Route path="/WarcCoin" element={< Warc_coin_full/>} />
-  <Route path="/archie_aa" element={< Archive_Agrregator_full/>} />
-  <Route path="/ArchiePlace" element={< Archive_place_full/>} />
-  <Route path="/ArchieWallet" element={< Archive_Walet_Full/>} />
-  <Route path="/ArchieMeta" element={< Archive_meta_full/>} />
-  <Route path="/isl_arch" element={< Archive_Islan_full/>} />
-  <Route path="/play" element={< Play_win_Full/>} />
-  <Route path="/archieve_e" element={< Archive_Ecommerce_full/>} />
-  <Route path="/Archie_Reality" element={< Archive_Reality_Full/>} />
-  <Route path="/tokenomics" element={< Token_nomics_page/>} />
-  <Route path="/Team_kyc" element={< Team_kyc/>} />
-  </Routes>
-  <Main_footer/>
-  <Sub_footer/>
-</BrowserRouter>
- 
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={< Complete_home_page />} />
+          <Route path="/white_paper" element={< White_paper />} />
+          <Route path="/contact_us" element={< Contact_page_full />} />
+          <Route path="/contact_us" element={< Contact_page_full />} />
+          <Route path="/token_allocation" element={< Token_allocation_page />} />
+          <Route path="/nft_staking" element={< NFT_staking_full />} />
+          <Route path="/WECAREKITTY" element={< KittyMain />} />
+          <Route path="/Archie_Staking" element={< Archive_staking_full />} />
+          <Route path="/Road_map" element={< Road_map />} />
+          <Route path="/Archie_Chain" element={< Archive_chain_Full />} />
+          <Route path="/Archie_Swap" element={< Archive_Swap_full />} />
+          <Route path="/Archie_Scan" element={< Archive_Scan_full />} />
+          <Route path="/ArcCoin" element={< Arc_coin_full />} />
+          <Route path="/WarcCoin" element={< Warc_coin_full />} />
+          <Route path="/archie_aa" element={< Archive_Agrregator_full />} />
+          <Route path="/ArchiePlace" element={< Archive_place_full />} />
+          <Route path="/ArchieWallet" element={< Archive_Walet_Full />} />
+          <Route path="/ArchieMeta" element={< Archive_meta_full />} />
+          <Route path="/isl_arch" element={< Archive_Islan_full />} />
+          <Route path="/play" element={< Play_win_Full />} />
+          <Route path="/archieve_e" element={< Archive_Ecommerce_full />} />
+          <Route path="/Archie_Reality" element={< Archive_Reality_Full />} />
+          <Route path="/tokenomics" element={< Token_nomics_page />} />
+          <Route path="/Team_kyc" element={< Team_kyc />} />
+        </Routes>
+        <Main_footer />
+        <Sub_footer />
+      </BrowserRouter>
+
 
 
     </div>

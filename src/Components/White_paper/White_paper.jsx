@@ -1,4 +1,5 @@
 import React from 'react'
+import "./White_paper.css"
 
 function White_paper() {
   return (
