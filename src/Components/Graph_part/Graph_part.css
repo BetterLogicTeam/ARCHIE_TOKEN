@@ -111,3 +111,12 @@ letter-spacing: 2px;
         text-align: center !important;
     }
 } 
+
+
+
+
+@media only screen and (min-width:1000px ) and (max-width:1100px ){
+    .responsive_width{
+        width: 60px !important;
+    }
+}

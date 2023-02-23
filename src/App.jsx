@@ -73,8 +73,8 @@ function App() {
   <Route path="/tokenomics" element={< Token_nomics_page/>} />
   <Route path="/Team_kyc" element={< Team_kyc/>} />
   </Routes>
-  <Main_footer/>
-  <Sub_footer/>
+  <Main_footer/> 
+   <Sub_footer/>
 </BrowserRouter>
  
 

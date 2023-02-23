@@ -16,20 +16,20 @@ import { BsYoutube } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Buy_model from "../Buy_model/Buy_model";
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
 export default function Header() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
-    <div className="">
+    <div className="sssds">
       <Navbar
         collapseOnSelect
         expand="lg"
         className="main_bg_nav"
         variant="dark"
       >
-        <Container className="">
+        <Container className="ms_ss">
           <Navbar.Brand href="#home">
             {" "}
             <Link to="/">
@@ -42,7 +42,7 @@ export default function Header() {
             <Nav className="">
               <Link to="/" className="header_links text-decoration-none">
                 {" "}
-                <Nav.Link href="#features" className="header_links">
+                <Nav.Link href="#features" className="header_links  msaad">
                   Home
                 </Nav.Link>{" "}
               </Link>
@@ -50,106 +50,117 @@ export default function Header() {
                 title={<span className="header_links  zind">ECO-SYSTEM</span>}
                 id="collasible-nav-dropdown"
               >
-                <Link to="/Archie_Chain" className='text-decoration-none'>
+                <Link to="/Archie_Chain" className="text-decoration-none">
                   {" "}
                   <NavDropdown.Item href="#action/3.1" className="all_hvr">
                     Archie Chain (ARC)
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/Archie_Swap" className='text-decoration-none'>
+                <Link to="/Archie_Swap" className="text-decoration-none">
                   {" "}
                   <NavDropdown.Item href="#action/3.2" className="all_hvr">
                     Archie Swap
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/Archie_Scan" className='text-decoration-none'>
+                <Link to="/Archie_Scan" className="text-decoration-none">
                   {" "}
                   <NavDropdown.Item href="#action/3.3" className="all_hvr">
                     Archie Scan
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/ArcCoin" className='text-decoration-none'>
+                <Link to="/ArcCoin" className="text-decoration-none">
                   {" "}
                   <NavDropdown.Item href="#action/3.4" className="all_hvr">
                     ArcCoin ($ARC)
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/WarcCoin" className='text-decoration-none'>
+                <Link to="/WarcCoin" className="text-decoration-none">
                   {" "}
                   <NavDropdown.Item href="#action/3.5" className="all_hvr">
                     WarcCoin ($WARC)
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/archie_aa" className='text-decoration-none'>
+                <Link to="/archie_aa" className="text-decoration-none">
                   {" "}
                   <NavDropdown.Item href="#action/3.6" className="all_hvr">
                     Archie Aggregaor
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/ArchiePlace" className='text-decoration-none'>
+                <Link to="/ArchiePlace" className="text-decoration-none">
                   {" "}
                   <NavDropdown.Item href="#action/3.7" className="all_hvr">
                     ArchiePlace
                   </NavDropdown.Item>
                 </Link>
-                <Link to='ArchieWallet' className='text-decoration-none'>
-                <NavDropdown.Item href="#action/3.8" className="all_hvr">
-                  ArchieWallet
-                </NavDropdown.Item>
+                <Link to="ArchieWallet" className="text-decoration-none">
+                  <NavDropdown.Item href="#action/3.8" className="all_hvr">
+                    ArchieWallet
+                  </NavDropdown.Item>
                 </Link>
-                <Link to='/ArchieMeta' className='text-decoration-none'>
-                <NavDropdown.Item href="#action/3.9" className="all_hvr">
-                  ArchieMeta
-                </NavDropdown.Item>
+                <Link to="/ArchieMeta" className="text-decoration-none">
+                  <NavDropdown.Item href="#action/3.9" className="all_hvr">
+                    ArchieMeta
+                  </NavDropdown.Item>
                 </Link>
-                <Link to ='/isl_arch' className='text-decoration-none'>
-                <NavDropdown.Item href="#action/3.10" className="all_hvr">
-                  Island of Archie
-                </NavDropdown.Item></Link>
-                <Link to='/play' className='text-decoration-none'>
-                <NavDropdown.Item href="#action/3.11" className="all_hvr">
-                  Play 2 Win
-                </NavDropdown.Item></Link>
-                <Link to= '/archieve_e' className="text-decoration-none">
-                <NavDropdown.Item href="#action/3.12" className="all_hvr">
-                  Archie Ecommerce
-                </NavDropdown.Item></Link>
-                <Link to='/Archie_Reality' className='text-decoration-none'>
-                <NavDropdown.Item href="#action/3.13" className="all_hvr">
-                  Archie Reality
-                </NavDropdown.Item></Link>
+                <Link to="/isl_arch" className="text-decoration-none">
+                  <NavDropdown.Item href="#action/3.10" className="all_hvr">
+                    Island of Archie
+                  </NavDropdown.Item>
+                </Link>
+                <Link to="/play" className="text-decoration-none">
+                  <NavDropdown.Item href="#action/3.11" className="all_hvr">
+                    Play 2 Win
+                  </NavDropdown.Item>
+                </Link>
+                <Link to="/archieve_e" className="text-decoration-none">
+                  <NavDropdown.Item href="#action/3.12" className="all_hvr">
+                    Archie Ecommerce
+                  </NavDropdown.Item>
+                </Link>
+                <Link to="/Archie_Reality" className="text-decoration-none">
+                  <NavDropdown.Item href="#action/3.13" className="all_hvr">
+                    Archie Reality
+                  </NavDropdown.Item>
+                </Link>
               </NavDropdown>
 
               <NavDropdown
                 title={<span className="header_links zind">ARCHIE-NFT</span>}
                 id="collasible-nav-dropdown"
               >
-              <Link to ='/Archieneko_NFT' className="text-decoration-none">
-                <NavDropdown.Item className="all_hvr" href="#action/3.1">
-                  Archieneko NFT
-                </NavDropdown.Item>
+                <Link to="/Archieneko_NFT" className="text-decoration-none">
+                  <NavDropdown.Item className="all_hvr" href="#action/3.1">
+                    Archieneko NFT
+                  </NavDropdown.Item>
                 </Link>
-                <Link className="text-decoration-none" to='/Meta_NFT'>
-                <NavDropdown.Item className="all_hvr" href="#action/3.2">
-                  ArchieMeta NFT
-                </NavDropdown.Item>
+                <Link className="text-decoration-none" to="/Meta_NFT">
+                  <NavDropdown.Item className="all_hvr" href="#action/3.2">
+                    ArchieMeta NFT
+                  </NavDropdown.Item>
                 </Link>
-                <Link className="text-decoration-none" to='/wecare_kityy'>
-                <NavDropdown.Item className="all_hvr" href="#action/3.3">
-                  We Care Kitty NFT
-                </NavDropdown.Item></Link>
+                <Link className="text-decoration-none" to="/wecare_kityy">
+                  <NavDropdown.Item className="all_hvr" href="#action/3.3">
+                    We Care Kitty NFT
+                  </NavDropdown.Item>
+                </Link>
               </NavDropdown>
 
               <NavDropdown
                 title={<span className="header_links zind">DOCUMENTS</span>}
                 id="collasible-nav-dropdown"
               >
-           <Link to='/token_allocation' className="text-decoration-none">    <NavDropdown.Item className="all_hvr" href="#action/3.1">
-                  Token Allocations
-                </NavDropdown.Item></Link> 
-              <Link to='/tokenomics' className="text-decoration-none">  <NavDropdown.Item className="all_hvr" href="#action/3.2">
-                  Tokenomics
-                </NavDropdown.Item></Link>
+                <Link to="/token_allocation" className="text-decoration-none">
+                  {" "}
+                  <NavDropdown.Item className="all_hvr" href="#action/3.1">
+                    Token Allocations
+                  </NavDropdown.Item>
+                </Link>
+                <Link to="/tokenomics" className="text-decoration-none">
+                  {" "}
+                  <NavDropdown.Item className="all_hvr" href="#action/3.2">
+                    Tokenomics
+                  </NavDropdown.Item>
+                </Link>
                 <Link to="/Road_map" className="text-decoration-none">
                   {" "}
                   <NavDropdown.Item className="all_hvr" href="#action/3.3">
@@ -159,24 +170,31 @@ export default function Header() {
                 <NavDropdown.Item className="all_hvr" href="#action/3.4">
                   Audit Report
                 </NavDropdown.Item>
-              <Link to ='/white_paper' className="text-decoration-none">  <NavDropdown.Item className="all_hvr" href="#action/3.5">
-                  White Paper
-                </NavDropdown.Item></Link>
-                <Link to='/Team_kyc' className=" text-decoration-none"><NavDropdown.Item className="all_hvr" href="#action/3.6">
-                  Team / KYC
-                </NavDropdown.Item></Link>
+                <Link to="/white_paper" className="text-decoration-none">
+                  {" "}
+                  <NavDropdown.Item className="all_hvr" href="#action/3.5">
+                    White Paper
+                  </NavDropdown.Item>
+                </Link>
+                <Link to="/Team_kyc" className=" text-decoration-none">
+                  <NavDropdown.Item className="all_hvr" href="#action/3.6">
+                    Team / KYC
+                  </NavDropdown.Item>
+                </Link>
               </NavDropdown>
 
-              <Nav.Link href="#features"  className="header_link_by_arch">
-               
-                <Button    className="header_link_by_arch button_arrrr" onClick={() => setModalShow(true)}>
-                BUY $ARCHIE
-      </Button>
+              <Nav.Link href="#features" className="header_link_by_arch">
+                <Button
+                  className="header_link_by_arch button_arrrr"
+                  onClick={() => setModalShow(true)}
+                >
+                  BUY $ARCHIE
+                </Button>
 
-      <Buy_model
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
+                <Buy_model
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
               </Nav.Link>
 
               <NavDropdown
@@ -189,9 +207,12 @@ export default function Header() {
                     Archie Staking
                   </NavDropdown.Item>
                 </Link>
-              <Link to ='/nft_staking' className="text-decoration-none">   <NavDropdown.Item className="all_hvr" href="#action/3.2">
-                  NFT Staking
-                </NavDropdown.Item></Link>
+                <Link to="/nft_staking" className="text-decoration-none">
+                  {" "}
+                  <NavDropdown.Item className="all_hvr" href="#action/3.2">
+                    NFT Staking
+                  </NavDropdown.Item>
+                </Link>
               </NavDropdown>
 
               <Link to="/WECAREKITTY" className="text-decoration-none">
@@ -254,9 +275,9 @@ export default function Header() {
                 >
                   <BsYoutube className="icon_edt" />
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> 
 
-              <NavDropdown
+               <NavDropdown
                 className="info_list_2"
                 title={<span>DAPP</span>}
                 id="collasible-nav-dropdown"
@@ -266,12 +287,6 @@ export default function Header() {
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            {/* <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
