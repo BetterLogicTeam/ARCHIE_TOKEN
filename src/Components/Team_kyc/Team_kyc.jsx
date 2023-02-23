@@ -5,7 +5,7 @@ import caat_token from "../Assests/cat_token.png"
 
 function Team_kyc() {
     return (
-        <div className='container-fuild pb-5 pt-3 bg-black'>
+        <div className='container-fuild py-5 bg-black'>
             <div className="heading d-flex align-items-center justify-content-center">
                 <h1 className='team'>Team <span className='yc'>/ KYC</span></h1>
             </div>
@@ -28,8 +28,8 @@ function Team_kyc() {
                 </div>
 
                 <div className="col-lg-4 text-center">
-                    <div className="tem_item">
-                        <div className="team_cor_img">
+                    {/* <div className="tem_item">
+                        <div className="team_img">
                             <img src={caat_token} alt="" className='token_immg' />
                             
                             <div class="team_social">
@@ -38,37 +38,56 @@ function Team_kyc() {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    <div class="team-item">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img className="img-fluid token_immg" src={caat_token} alt="" />
+                            <div class="team-social">
+                                <a class="m-2" href="emailto:marketing@archieneko.com"><i class="fa fa-envelope-open"></i></a>
+                            </div>
+                        </div>
 
-                    <div className='jp p-4 text-center'>
-                        <h5 className='jp_heading'>JP</h5>
-                        <span className='jp_heading_tow'>CEO / Founder</span>
+                        <div className='jp p-4 text-center'>
+                            <h5 className='jp_heading'>JP</h5>
+                            <span className='jp_heading_tow'>CEO / Founder</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className="col-lg-4 text-center">
+                    <div class="team-item">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img className="img-fluid token_immg" src={caat_token} alt="" />
+                            <div class="team-social">
+                                <a class="m-2" href="emailto:marketing@archieneko.com"><i class="fa fa-envelope-open"></i></a>
+                            </div>
+                        </div>
+
+                        <div className='jp p-4 text-center'>
+                            <h5 className='jp_heading'>ARCHIE PHEONIX</h5>
+                            <span className='jp_heading_tow'>Community Director</span>
+                        </div>
                     </div>
                 </div>
 
                 <div className="col-lg-4 text-center">
-                    <div className="tem_item">
-                        <div className="team_cor_img">
-                            <img src={caat_token} alt="" className='token_immg' />
+                    <div class="team-item">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img className="img-fluid token_immg" src={caat_token} alt="" />
+                            <div class="team-social">
+                                <a class="m-2" href="emailto:marketing@archieneko.com"><i class="fa fa-envelope-open"></i></a>
+                            </div>
                         </div>
-                    </div>
-                    <div className='jp p-4 text-center'>
-                        <h5 className='jp_heading'>ARCHIE PHEONIX</h5>
-                        <span className='jp_heading_tow'>Community Director</span>
+
+                        <div className='jp p-4 text-center'>
+                            <h5 className='jp_heading'>ARCHIE LEX</h5>
+                            <span className='jp_heading_tow'>Marketing Director</span>
+                        </div>
                     </div>
                 </div>
 
-                <div className="col-lg-4 text-center">
-                    <div className="tem_item">
-                        <div className="team_cor_img">
-                            <img src={caat_token} alt="" className='token_immg' />
-                        </div>
-                    </div>
-                    <div className='jp p-4 text-center'>
-                        <h5 className='jp_heading'>ARCHIE LEX</h5>
-                        <span className='jp_heading_tow'>Marketing Director</span>
-                    </div>
-                </div>
             </div>
         </div>
     )
