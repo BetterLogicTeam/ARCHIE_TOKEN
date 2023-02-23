@@ -29,6 +29,11 @@ import Token_allocation_page from './Components/Token_allocation_page/Token_allo
 import Token_nomics_page from './Components/Token_nomics_page/Token_nomics_page';
 import Team_kyc from './Components/Team_kyc/Team_kyc'
 import White_paper from './Components/White_paper/White_paper';
+import Archiniko_Second from './Components/Archiniko_Second/Archiniko_Second';
+import Archiniko_nft from './Components/Archiniko_nft/Archiniko_nft';
+import Archiniko_nft_full from './Components/Archiniko_nft_full/Archiniko_nft_full';
+import Arhiniko_meta_full from './Components/Arhiniko_meta_full/Arhiniko_meta_full';
+import Archive_Nav_main from './Components/Archive_Nav_main/Archive_Nav_main';
 // import Archive_Scan_full from './Components/Archive_Scan_full/Archive_Scan_fulls';
 
 
@@ -41,6 +46,9 @@ function App() {
   <Header/>
   <Routes>
   <Route path="/" element={< Complete_home_page/>} />
+  <Route path="/Archieneko_NFT" element={< Archiniko_nft_full/>} />
+  <Route path="/Meta_NFT" element={< Arhiniko_meta_full/>} />
+  <Route path="/wecare_kityy" element={< Archive_Nav_main/>} />
   <Route path="/white_paper" element={< White_paper/>} />
   <Route path="/contact_us" element={< Contact_page_full/>} />
   <Route path="/contact_us" element={< Contact_page_full/>} />

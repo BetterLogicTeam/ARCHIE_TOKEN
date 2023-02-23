@@ -3,7 +3,7 @@ import './WeCareKitty_Sponsoring.css';
 
 function WeCareKitty_Sponsoring() {
   return (
-    <>
+    <div className='px-2'>
 <div className="container bg_color mt-5">
 <div className="row">
 
@@ -24,7 +24,7 @@ function WeCareKitty_Sponsoring() {
 
 </div>
 
-    </>
+    </div>
   )
 }
 

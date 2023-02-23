@@ -6,8 +6,8 @@ function Archiniko_Second() {
 
         <div className="container-fluid bg-co">
             <div className="row">
-                <div className="col-md-4 d-block m-auto">
-                    <p className='text-white text-center  d-block m-auto prhaa'>Many non-utility NFTs have no real value other than the value a
+                <div className="col-md-4 d-block m-auto " >
+                    <p className='text-white text-center  d-block m-auto prhaa' data-aos="fade-up"      data-aos-duration="1000">Many non-utility NFTs have no real value other than the value a
                         buyer or community believes it to have, based upon the rarity of
                         its collectability or current hype surrounding the subject.
                         ArchienekoNFT is connected to ArchieMeta and these NFTs are
@@ -18,7 +18,7 @@ function Archiniko_Second() {
                 </div>
             </div>
             <div className="row">
-                <div className="col-m d-block m-auto ">
+                <div className="col-m d-block m-auto " data-aos="fade-up"      data-aos-duration="1500">
                 <div>
                         <button type="button" class="btn btn-lg text-white vist my-4">VISIT ARCHIVEKO NFT </button>
                     </div>

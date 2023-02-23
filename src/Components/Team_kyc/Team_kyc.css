@@ -102,10 +102,12 @@
   opacity: 0;
 }  
 
-.team_item:hover .team_cor_img .team_social {
+/* .team_item:hover .team_cor_img .team_social {
     transition-delay: .3s;
     opacity: 1;
-}
+    width: 1%  !important;
+    height:100%  !important;
+} */
 
 .team_cor_img::before {
     position: absolute;
@@ -147,3 +149,4 @@
     margin-top: 4rem;
   }
 }
+

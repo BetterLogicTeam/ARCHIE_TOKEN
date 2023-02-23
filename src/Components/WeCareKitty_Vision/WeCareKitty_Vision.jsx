@@ -5,7 +5,7 @@ function WeCareKitty_Vision() {
     return (
         <>
             <div className="container mt-4 text-start">
-                <div className="row">
+                <div className="row px-2">
 
                     <div className="col-lg-4  mt-4 mt-md-0 col-sm-12 without_bg">
 
@@ -50,7 +50,7 @@ function WeCareKitty_Vision() {
 
                     </div>
                 </div>
-                <div className="row my-4">
+                <div className="row px-2 my-4">
 
                     <div className="col-lg-4 col-md-12 mt-4 mt-md-0 bg_color">
 

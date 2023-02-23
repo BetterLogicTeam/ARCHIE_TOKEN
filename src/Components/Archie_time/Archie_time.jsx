@@ -11,13 +11,13 @@ function Archie_time() {
       </h1>
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-up"      data-aos-duration="1000">
             <div className="token_img">
               <img src={token} className="token_img  rounded" alt="" />
             </div>
           </div>
 
-          <div className="col-md-6 mt-4 mt-md-0">
+          <div className="col-md-6 mt-4 mt-md-0" data-aos="fade-up"      data-aos-duration="1500">
             <div className="">
               <table className="table ">
                 <thead>

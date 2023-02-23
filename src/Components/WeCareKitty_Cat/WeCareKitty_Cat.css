@@ -25,3 +25,14 @@
     color: #7643CB;
     font-weight: 700;
 }
+.read_more_btn{
+    text-transform: uppercase;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 13px 36px;
+    /* background: -webkit-gradient(linear, left top, right top, from(#7643CB), to(#b093df)); */
+    background: linear-gradient(90deg, #7643CB 0%, #b093df 100%);
+    color: #ffffff;
+}

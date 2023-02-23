@@ -25,10 +25,10 @@ function Home_slider_1() {
                             pagination={{
                                 clickable: true,
                             }}
-                            // autoplay={{
-                            //     delay: 2500,
-                            //     disableOnInteraction: false,
-                            //   }}
+                            autoplay={{
+                                delay: 2500,
+                                disableOnInteraction: false,
+                              }}
                             navigation={true}
                             Navigation={true}
                             modules={[Navigation, Autoplay]}

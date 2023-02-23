@@ -11,7 +11,7 @@ export default function Graph_part() {
     <div className="main_bg_archie">
       <div className="container">
         <div className="row">
-          <div className="col-md-6  ">
+          <div className="col-md-6  " data-aos="fade-up"      data-aos-duration="1000">
             <h1 className="graphy_heading ">
               {" "}
               <span className="clr me-0"> Dex</span> <span> tools</span>
@@ -20,7 +20,7 @@ export default function Graph_part() {
               <img src={chart} className="w-100 chart_g" alt="" />
             </div>
           </div>
-          <div className="col-md-6 ">
+          <div className="col-md-6 "  data-aos="fade-up"      data-aos-duration="1500">
             <h1 className="graphy_heading ">
               {" "}
               <span className="clr responsive_text me-0"> Coin</span> <span className="responsive_text">Market </span>{" "}
@@ -32,7 +32,7 @@ export default function Graph_part() {
           </div>
 
           <div className="row justify-content-center p-0 m-0">
-            <div className="col-md-6 col-12 mt-4 ">
+            <div className="col-md-6 col-12 mt-4 "  data-aos="fade-up"      data-aos-duration="1000">
               <h1 className="graphy_heading ">
                 {" "}
                 <span className="clr me-0"> Coin</span> <span> Gecko</span>
@@ -44,7 +44,7 @@ export default function Graph_part() {
           </div>
 
           <div className="row mt-5 p-0 m-0">
-            <div className="col-md-6">
+            <div className="col-md-6 "   >
               <div className="cat_pic">
                 <img src={cat} className='responsive_width' alt="" />
               </div>
@@ -55,7 +55,7 @@ export default function Graph_part() {
                 <h1 className="cat_text_heading">
                   The Story of <span className="clr"> Archie </span> is Real
                 </h1>
-                <p className=" text-white text-justify m-0">
+                <p className=" text-white text-justify text-center m-0">
                   The story of Archie is real, the story of a cute, friendly,
                   and fiercely loyal kitty. Our vision for Archie is to generate
                   wealth for a decentralized community in a safe and secure
@@ -72,13 +72,13 @@ export default function Graph_part() {
             </div>
           </div>
 
-          <div className="row mt-5">
+          <div className="row justify-content-center m-0 mt-5">
             <div className="col-md-6">
-              <div className="what_Archie">
+              <div className="what_Archie" data-aos="fade-up"      data-aos-duration="1000">
                 <h1 className="text-white">
-                  What is <span className="clr"> ArchieToken? </span>
+                  What is <span className="clr text-center"> ArchieToken? </span>
                 </h1>
-                <p className="text-start text-white">
+                <p className="text-start text-white  cen tick">
                   HOME ECO-SYSTEM ARCHIE NFT DOCUMENTS BUY $ARCHIE STAKING
                   WECAREKITTY Buy NFT Previous Next Dextools Coin Market Cap
                   CoinGecko The Story of Archie is Real The story of Archie is
@@ -102,11 +102,11 @@ export default function Graph_part() {
                   millionaires, but you won’t lose your money. That is always
                   our motto at ArchieNeko.
                 </p>
-                <p className="text-start text-white">
+                <p className="text-start cen text-white">
                   Why are we creating a token on ARC chain while we have a token
                   on Erc-20 already?
                 </p>
-                <p className="text-start text-white">
+                <p className=" text-start cen text-white tick">
                   This is a valid question that came up several times. When we
                   launched our original token, the Eth was at $3,250 and we
                   changed our plans to not to list our token in any centralized
@@ -117,16 +117,19 @@ export default function Graph_part() {
                   prevented people to ape in and out but also prevented us from
                   further growth.
                 </p>
-<div className="text-center">
+{/* <div className="text-center">
 <button className="read_more_btn ">READ MORE</button>
     
-</div>
+</div> */}
 
               </div>
             </div>
 
-            <div className="col-md-6 mt-4 mt-md-0">
-                <img src={invest} className='w-100' alt="" />
+            <div className="col-md-6 mt-4 mt-md-0" data-aos="fade-up"      data-aos-duration="1500">
+            <h1 className="text-white text-center fw-bold py-3">Why <span className="clr "> invest </span> in <br /> <span className="clr"> ArchieToken? </span></h1>
+
+            <div className="token_img">
+                <img src={invest} className='w-100 rounded' alt="" /></div>
             </div>
           </div>
 
@@ -143,16 +146,16 @@ We need to support our liquidity and of course ,our marketing needs. So, we deci
 
         <div className="row m-0 justify-content-center">
             <h3 className="text-center text-white text-capitalize">first <span className="clr"> 30</span> days </h3>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-up"      data-aos-duration="1000">
                 <Home_card main_heading='Liquidity' per_1='3%' per_2='4%' details='3% of every Buy & 4% Sell or Transfer transaction is converted into liquidity according to as shown. This is automatic and helps to create a stability.'/>
             </div>
-            <div className="col-md-4 mt-4 mt-md-0">
+            <div className="col-md-4 mt-4 mt-md-0" data-aos="fade-up"      data-aos-duration="1500">
                 <Home_card main_heading='Marketing' per_1='2%' per_2='7%' details='2% of every Buy & 7% of every Sell or Transfer transaction is converted into marketing wallet according to as shown. This will help us to carry out accomplish achieve smart marketing to get our project ready for coming months to the world.'/>
             </div>
         </div>
 
         <div className="row m-0 justify-content-center my-4">
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-up"      data-aos-duration="1000">
                 <Home_card main_heading='TOTAL' per_1='5%' per_2='11%'/>
             </div>
         </div>
@@ -161,16 +164,16 @@ We need to support our liquidity and of course ,our marketing needs. So, we deci
                          
                                 <div className="row m-0 justify-content-center">
             <h3 className="text-center text-white text-capitalize">after <span className="clr"> 30</span> days </h3>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-up"      data-aos-duration="1000">
                 <Home_card main_heading='Liquidity' per_1='3%' per_2='3%' details='3% of every Buy & 4% Sell or Transfer transaction is converted into liquidity according to as shown. This is automatic and helps to create a stability.'/>
             </div>
-            <div className="col-md-4  mt-4 mt-md-0">
+            <div className="col-md-4  mt-4 mt-md-0" data-aos="fade-up"      data-aos-duration="1500">
                 <Home_card main_heading='Marketing' per_1='2%' per_2='4%' details='2% of every Buy & 7% of every Sell or Transfer transaction is converted into marketing wallet according to as shown. This will help us to carry out accomplish achieve smart marketing to get our project ready for coming months to the world.'/>
             </div>
         </div>
 
         <div className="row m-0 justify-content-center mt-4">
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-up"      data-aos-duration="1000">
                 <Home_card main_heading='TOTAL' per_1='5%' per_2='7%'/>
             </div>
         </div>

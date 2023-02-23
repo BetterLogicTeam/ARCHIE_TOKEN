@@ -18,13 +18,12 @@ import "swiper/css/navigation";
 export default function Benifits_archie() {
   return (
     <div className='beinfits_main'>
-  <h1 className='text-white text-center'> <span className='clr'> Benefits </span> of Using <span className='clr'> ArchieToken </span></h1>
+  <h1 className='text-white text-center py-4'> <span className='clr'> Benefits </span> of Using <span className='clr'> ArchieToken </span></h1>
 <div className="container">
     <div className="row">
        <div className="col-md-12">
        <Swiper
               spaceBetween={30}
-              loop={true}
               breakpoints={{
                 640: {
                   slidesPerView: 1,
@@ -48,6 +47,8 @@ export default function Benifits_archie() {
               // }}
               // navigation={true}
               modules={[Autoplay]}
+              loop={true}
+
               className="mySwiper"
             >
               <SwiperSlide className="lastest_slidererr">

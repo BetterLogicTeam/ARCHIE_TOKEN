@@ -1,6 +1,6 @@
 import React from 'react'
 import done from '../Assests/coin.png'
-import ro from '../Assests/i.svg'
+import ro from '../Assests/meta.svg'
 import './Archive_Meta.css'
 
 function Archive_Meta() {

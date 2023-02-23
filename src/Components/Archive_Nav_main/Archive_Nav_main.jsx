@@ -8,10 +8,8 @@ import Archive_WeCare from '../Archive_WeCare/Archive_WeCare'
 function Archive_Nav_main() {
   return (
     <div>
-      <Archiniko_nft/>
-      <Archiniko_Second />
-      <Archive_Meta />
-      <Archive_MetaTwo />
+     
+    
       <Archive_WeCare />
       <Archive_MetaTwo /> 
     </div>

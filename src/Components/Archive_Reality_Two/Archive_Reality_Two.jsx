@@ -5,7 +5,7 @@ function Archive_Reality_Two() {
     <div className="container-fluid bg-co">
     <div className="row">
         <div className="col-md-4 d-block m-auto">
-            <p className='text-white text-center  d-block m-auto prhaa'>
+            <p className='text-white text-center  d-block m-auto prhaa' data-aos="fade-up"      data-aos-duration="1000">
             In the 13,000 acres that make up ArchieMeta, there will be both Commercial Real Estate and Residential Real Estate. The commercial real estate, consisting of the various businesses in ArchieMeta, is private and will never be sold.
 HOMES | RENTALS
               </p>
@@ -13,7 +13,7 @@ HOMES | RENTALS
         </div>
     </div>
     <div className="row">
-        <div className="col-m d-block m-auto ">
+        <div className="col-m d-block m-auto " data-aos="fade-up"      data-aos-duration="1000" >
         <div>
                 <button type="button" class="btn btn-lg text-white vist my-4">COMMING SOON</button>
             </div>

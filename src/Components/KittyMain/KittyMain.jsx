@@ -10,8 +10,8 @@ function KittyMain() {
 
 {/* <WeCareKitty /> */}
 <WeCareKitty_Cat />     
-<WeCareKitty_Vision />
-<WeCareKitty_Sponsoring />
+{/* <WeCareKitty_Vision /> */}
+{/* <WeCareKitty_Sponsoring /> */}
 
     </div>
   )

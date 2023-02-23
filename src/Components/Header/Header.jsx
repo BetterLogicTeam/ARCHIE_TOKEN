@@ -124,15 +124,20 @@ export default function Header() {
                 title={<span className="header_links zind">ARCHIE-NFT</span>}
                 id="collasible-nav-dropdown"
               >
+              <Link to ='/Archieneko_NFT' className="text-decoration-none">
                 <NavDropdown.Item className="all_hvr" href="#action/3.1">
                   Archieneko NFT
                 </NavDropdown.Item>
+                </Link>
+                <Link className="text-decoration-none" to='/Meta_NFT'>
                 <NavDropdown.Item className="all_hvr" href="#action/3.2">
                   ArchieMeta NFT
                 </NavDropdown.Item>
+                </Link>
+                <Link className="text-decoration-none" to='/wecare_kityy'>
                 <NavDropdown.Item className="all_hvr" href="#action/3.3">
                   We Care Kitty NFT
-                </NavDropdown.Item>
+                </NavDropdown.Item></Link>
               </NavDropdown>
 
               <NavDropdown

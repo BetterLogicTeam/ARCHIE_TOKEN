@@ -47,6 +47,11 @@ transition: all 0.5s;
     box-shadow: 0 0 10px #e9919b;
     display: flex;
     justify-content: center;
+    animation: mover 1s infinite  alternate;
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
 }
 
 
@@ -56,6 +61,16 @@ transition: all 0.5s;
     line-height: 1.2;
     color: #fff;
     text-align: center;
+}
+
+.tick::before{
+    content: "✓";
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(250, 0, 31);
+    padding: 5px;
+
 }
 
 
@@ -90,5 +105,9 @@ letter-spacing: 2px;
     .cat_text_heading{
         font-size: 24px !important;
         text-align: justify;
+    }
+
+    .cen{
+        text-align: center !important;
     }
 } 
