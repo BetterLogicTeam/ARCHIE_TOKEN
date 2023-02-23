@@ -1,5 +1,5 @@
 import React from 'react'
-import './Archive_NFT'
+import './Archive_NFT.css'
 function Staking_NFT() {
   return (
     <>
@@ -8,7 +8,7 @@ function Staking_NFT() {
         <p>Archive staking</p>
       </div>
       <div className='d-flex justify-content-center'>
-        <button type="button" class="btn btn-lg text-white bt_css" data-aos="fade-up"      data-aos-duration="1500">COMING SOON </button>
+        <button type="button" class="btn  text-white  comiiii" data-aos="fade-up"      data-aos-duration="1500">COMING SOON </button>
       </div>
       </div>
     </>

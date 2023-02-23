@@ -1,12 +1,21 @@
 .bg_nft{
     background-color: black;
 }
-.bt_css{
-    border-radius: 20px;
-     background-color:#FA001F ;
-}
+
 .bt_css:hover{
     background: linear-gradient(90deg, #fc6475 0%, #FA001F 100%);
     background-color: #a39da0;
     border-color: #c7bef3;
+}
+
+.comiiii{
+    text-transform: uppercase;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px !important;
+    padding: 13px 36px !important;
+    /* background: -webkit-gradient(linear, left top, right top, from(#FA001F), to(#fc6475)); */
+    background: linear-gradient(90deg, #FA001F 0%, #fc6475 100%) !important;
+    color: #ffffff !important;
 }

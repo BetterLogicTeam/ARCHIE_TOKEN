@@ -10,6 +10,7 @@ import Main_footer from '../Main_footer/Main_footer';
 import Sub_footer from '../Sub_footer/Sub_footer';
 import Home_slider_1 from '../Home_slider_1/Home_slider_1';
 import Road_map from '../Road_map/Road_map';
+import WeCareKitty_Cat from '../WeCareKitty_Cat/WeCareKitty_Cat';
 
 
 export default function Complete_home_page() {
@@ -23,8 +24,9 @@ export default function Complete_home_page() {
         <Road_map/>
 
 
+<WeCareKitty_Cat />     
 
-         <KittyMain />
+         
          <ARCHIE_PART />
        <Archie_patner />
      
